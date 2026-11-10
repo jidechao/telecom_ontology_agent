@@ -1,0 +1,9 @@
+# 密钥与本地配置
+.env
+# 虚拟环境
+.venv/
+# Python 缓存
+__pycache__/
+*.pyc
+# 运行时生成的 SQLite 数据库（可用 seed_all() 重新生成）
+data/
