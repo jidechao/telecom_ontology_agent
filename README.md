@@ -75,6 +75,8 @@ python main.py --customer 刘洋          # 关联缺失
 
 ## 大模型配置
 
+复制 `.env.example` 为 `.env` 并填入真实密钥（模板不含敏感值，`.env` 已被 gitignore 排除）：
+
 从 `.env` 读取（默认查找顺序：环境变量 `ENV_FILE` 显式指定的文件 → 项目内 `.env`）：
 
 ```
